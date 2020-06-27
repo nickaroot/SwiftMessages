@@ -11,7 +11,7 @@ pkg.products = [
 ]
 
 let smg: Target = .target(name: "SwiftMessages")
-smg.path = "Sources"
+smg.path = "SwiftMessages"
 pkg.swiftLanguageVersions = [.v4, .v4_2, .v5]
 pkg.targets = [
     smg,
